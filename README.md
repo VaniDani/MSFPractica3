@@ -48,7 +48,7 @@ Palabras clave: Modelo de Windkessel; Presión arterial; Sistema Cardiovascular;
 3. Archivos de Spyder \[.py].
 4. Imagen con los parámetros del controlador.
 5. Imágenes de las simulaciones \[.pdf].
-6. Evidencia del análisis matemático: función de transferencia, modelo de ecuaciones integro-diferenciales, error en estado estacionario y estabilidad en lazo abierto.
+6. Evidencia del análisis matemático: función de transferencia, error en estado estacionario y estabilidad en lazo abierto.
 
 7\. Modelo fisiológico en Biorender o BioArt.
 
