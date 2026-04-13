@@ -1,6 +1,6 @@
 [![Open in MATLAB Online](https://www.mathworks.com/images/responsive/global/open-in-matlab-online.svg)](https://matlab.mathworks.com/open/github/v1?repo=VaniDani/MSFPractica2)
 
-# Práctica: Sistema musculoesquelético
+# Práctica 3: Sistema musculoesquelético
 
 ## Información de la estudiante
 
