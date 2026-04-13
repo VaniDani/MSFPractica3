@@ -24,20 +24,18 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Objetivos
 
-1\. Calcular la función de transferencia.
-2. Determinar el modelo de ecuaciones integro-diferenciales.
-3. Calcular el error en estado estacionario y la estabilidad en lazo abierto.
-4. Emular y simular la respuesta del circuito en Simulink/Simscape a la señal "Uniform Random Number" con la siguiente configuración: min = -0.2 V; max = 1 V; seed = 106; Sample time = 0.5.
-5. Sintonizar las ganancias de un controlador PID para eliminar el error entre la entrada y la salida del sistema normotenso-hipotenso y normotenso-hipertenso.
-6. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Spyder/Python con la función de transferencia.
+1. Convertir el modelo mecánico a un modelo eléctrico utilizando la analogía fuerza-voltaje.
+2. Calcular la función de transferencia del sistema musculoesquelético aplicando el principio de superposición.
+3. Determinar el error en estado estacionario y la estabilidad en lazo abierto.
+4. Construir y simular el diagrama de bloques en Simulink.
+5. Sintonizar las ganancias de un controlador PID para eliminar el error entre la entrada y la salida del sistema control y caso.
+6. Obtener la respuesta en lazo abierto y en lazo cerrado con el controlador PID en Python, Simulink y Multisim.
 
 ## Descripción detallada del sistema
 
-El modelo de Windkessel de cuatro elementos contiene dos elementos dinámicos. Por lo tanto, se necesitan dos estados para describir la dinámica. El vector de estados se conforma por las variables FL(t) denotando el flujo a través de la inercia arterial total, y la variable Pp(t) representando la presión sobre la distensibilidad arterial. Entonces, asumiendo Pa(t) como la presión arterial de entrada, y en consecuencia a Fa(t) como el flujo hacia la aorta o arteria pulmonar. Los parámetros son Z, C, R y L, que representan respectivamente la impedancia característica del lecho vascular pulmonar (aorta y arteria pulmonar), la distensibilidad aérea total, la resistencia periférica y la inertancia arterial. Este modelo tiene muchas ventajas importantes, por ejemplo:
+## Descripción del sistema musculoesquelético
 
-1\. Su sencillez, unos pocos elementos interconectados son suficientes para reproducir la dinámica principal del sistema cardiovascular.
-
-2\. Existe una clara analogía entre los elementos eléctricos y los componentes hidráulicos implicados en el efecto Windkessel. En consecuencia, se relacionan fácilmente con el significado hemodinámico y el acoplamiento ventrículo-arterial.
+El modelo musculoesquelético de Khoo se representa mediante un diagrama mecánico con elementos elásticos y viscosos. El vector de estados se conforma por las variables \(x(t)\), que denotan el desplazamiento total del sistema, y \(x_1(t)\), que representa la extensión del elemento elástico en serie. La fuerza desarrollada por el elemento contráctil activo se denota como \(F_0\), mientras que \(F(t)\) corresponde a la fuerza real transmitida al sistema.  
 
 Palabras clave: Diagrama mecánico; Diagrama fisiológico; Sistema Musculoesquelético; Función de Transferencia; Controlador PI
 
