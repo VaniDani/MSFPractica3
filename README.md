@@ -33,10 +33,6 @@ La asignatura de Modelado de Sistemas Fisiológicos forma parte del plan de estu
 
 ## Descripción detallada del sistema
 
-## Descripción del sistema musculoesquelético
-
-## Descripción del sistema musculoesquelético
-
 El modelo musculoesquelético de Khoo se representa mediante un diagrama mecánico con elementos elásticos y viscosos. El vector de estados se conforma por las variables x(t), que denotan el desplazamiento total del sistema, y x1(t), que representa la extensión del elemento elástico en serie. La fuerza desarrollada por el elemento contráctil activo se denota como F0, mientras que F(t) corresponde a la fuerza real transmitida al sistema. Los parámetros principales son Cp, Cs y R, que representan respectivamente la elasticidad paralela del sarcolema, la elasticidad en serie de los tendones musculares y la amortiguación viscosa del tejido.
 
 Palabras clave: Diagrama mecánico; Diagrama fisiológico; Sistema Musculoesquelético; Función de Transferencia; Controlador PI
